@@ -1,0 +1,18 @@
+Filipe Augusto Santos de Moura - 20.2.8079
+
+Foi utilizada a entidade Champion, na qual representa um campeão do jogo League of Legends. Esta escolha se deve pela grande quantidade de dados que um campeão possui, mesmo que muito poucos deles tenham sido usados nessa atividade. Os dados foram modelados de maneira aninhada para fazer uso total dos dicionários e do formato JSON.
+
+Como rodar:
+- Como foram usadas apenas bibliotecas standards, não foi necessário a criação de um ambiente virtual.
+- Basta executar o arquivo main.py, que possui um menu interativo para o usuário.
+
+Estrutura:
+- O arquivo models.py possui os modelos dos dados usados nesta atividade
+- O arquivo enums.py possui os enumerados usados em algumas entidades
+- Os arquivos menu.py e main.py tratam da entrada e saída de dados do usuário
+- O arquivo populate_dict.py é o arquivo que popula o dicionario estático
+- O arquivo operations.py é o arquivo que realiza as operações de leitura e escrita nos arquivos e no dicionário em mémoria
+
+Importante:
+- O dicionário começa vazio, então é importante inicializá-lo para realizar as escritas nos arquivos toda vez que rodar o programa.
+- Os dados estáticos dos campeões foram consultados em fórums da comunidade
